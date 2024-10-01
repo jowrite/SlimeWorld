@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-4252874758535145043
+--- !u!114 &-6544903555545109548
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_Outline
-  m_Shader: {fileID: -6465566751694194690, guid: 2d47d5c790c862b488b237f165736042, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 18570d170cadd224ba3cedd0d2fa5547, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []

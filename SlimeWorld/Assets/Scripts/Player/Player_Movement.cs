@@ -34,7 +34,6 @@ public class Player_Movement : MonoBehaviour
         rb.AddForce(gimbal.forward * movementSpeed * Input.GetAxis("Vertical"));
         rb.AddForce(gimbal.right * movementSpeed * Input.GetAxis("Horizontal"));
 
-        // 
         TurnModel();
     }
 
