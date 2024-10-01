@@ -35,16 +35,10 @@ public class Player_Blower : MonoBehaviour
 
     private void ActivateBlower()
     {
-        Debug.Log(blowerPoint.forward);
-
         RaycastHit[] blownObjects = Physics.SphereCastAll(blowerPoint.position, blowerRange, blowerPoint.forward, blowerRange, objectsLayer);
 
         foreach (RaycastHit objectToBlow in blownObjects)
         {
-            if (blownObjects.Length == 0) Debug.Log("There is nothing here");
-
-            else Debug.Log(objectToBlow.transform.name);
-
             if (Vector3.Angle((objectToBlow.transform.position - transform.position).normalized, blowerPoint.forward) <= maxBlowerAngle)
             {
                 BlowAway(objectToBlow.collider.gameObject);
