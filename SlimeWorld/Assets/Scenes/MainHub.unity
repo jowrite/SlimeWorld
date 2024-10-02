@@ -284,7 +284,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 64
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!114 &176117903
 MonoBehaviour:
@@ -364,6 +364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18d98d4c03d3f744d932f43ae0dd2c9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotateTime: 2
 --- !u!114 &176117908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -603,7 +604,7 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.60000014, y: -0.3000002, z: 0.19999981}
+  m_ConnectedAnchor: {x: 0.29999995, y: -0.3000002, z: 0.19999981}
   serializedVersion: 2
   m_Spring: 10
   m_Damper: 0.2
@@ -824,7 +825,7 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.25574994, y: -0.19999981, z: 0.07212353}
+  m_ConnectedAnchor: {x: -0.29999995, y: -0.3000002, z: 0}
   serializedVersion: 2
   m_Spring: 10
   m_Damper: 0.2
@@ -984,7 +985,7 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: -0.19999981, z: 0.3278799}
+  m_ConnectedAnchor: {x: 0, y: -0.3000002, z: 0.3000002}
   serializedVersion: 2
   m_Spring: 10
   m_Damper: 0.2
